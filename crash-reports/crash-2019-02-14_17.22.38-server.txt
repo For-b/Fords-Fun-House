@@ -1,0 +1,66 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MalisisCorePlugin (MalisisCore-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Why is it breaking :(
+
+Time: 2/14/19 5:22 PM
+Description: Exception in server tick loop
+
+java.net.UnknownHostException: 113.332.223.554
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getByName(Unknown Source)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:176)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (x86) version 10.0
+	Java Version: 1.8.0_201, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 726224096 bytes (692 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 2 total; -Xmx1G -Xms1G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 18 mods loaded, 18 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                  | Version       | Source                                         | Signature                                |
+	|:----- |:------------------- |:------------- |:---------------------------------------------- |:---------------------------------------- |
+	| UCH   | minecraft           | 1.12.2        | minecraft.jar                                  | None                                     |
+	| UCH   | mcp                 | 9.42          | minecraft.jar                                  | None                                     |
+	| UCH   | FML                 | 8.0.99.99     | forge-1.12.2-14.23.5.2768-universal.jar        | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| UCH   | forge               | 14.23.5.2768  | forge-1.12.2-14.23.5.2768-universal.jar        | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| UCH   | securitycraft       | v1.8.10       | [1.12.2]+SecurityCraft+v1.8.10.jar             | None                                     |
+	| UCH   | buildcraftlib       | 7.99.21       | buildcraft-all-7.99.21.jar                     | None                                     |
+	| UCH   | buildcraftcore      | 7.99.21       | buildcraft-all-7.99.21.jar                     | None                                     |
+	| UCH   | buildcraftbuilders  | 7.99.21       | buildcraft-all-7.99.21.jar                     | None                                     |
+	| UCH   | buildcrafttransport | 7.99.21       | buildcraft-all-7.99.21.jar                     | None                                     |
+	| UCH   | buildcraftsilicon   | 7.99.21       | buildcraft-all-7.99.21.jar                     | None                                     |
+	| UCH   | buildcraftcompat    | 7.99.21       | buildcraft-all-7.99.21.jar                     | None                                     |
+	| UCH   | buildcraftenergy    | 7.99.21       | buildcraft-all-7.99.21.jar                     | None                                     |
+	| UCH   | buildcraftfactory   | 7.99.21       | buildcraft-all-7.99.21.jar                     | None                                     |
+	| UCH   | buildcraftrobotics  | 7.99.21       | buildcraft-all-7.99.21.jar                     | None                                     |
+	| UCH   | ic2                 | 2.8.100-ex112 | Industrial-Craft-2-Mod-Experimental-1.12.2.jar | de041f9f6187debbc77034a344134053277aa3b0 |
+	| UCH   | malisiscore         | 1.12.2-6.4.0  | MalisisCore-1.12.2.jar                         | None                                     |
+	| UCH   | malisisdoors        | 1.12.2-7.3.0  | MalisisDoors-Mod-1.12.2.jar                    | None                                     |
+	| UCH   | orespawn            | 3.3.1         | OreSpawn-1.12-3.3.1.161.jar                    | d476d1b22b218a10d845928d1665d45fce301b27 |
+
+	Loaded coremods (and transformers): 
+MalisisCorePlugin (MalisisCore-1.12.2.jar)
+  
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

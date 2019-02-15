@@ -1,0 +1,598 @@
+{
+  "version": "2.0",
+  "spawns": {
+    "andesite": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 255,
+        "variation": 50,
+        "frequency": 10,
+        "size": 112
+      }
+    },
+    "coal_ore": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 128,
+        "variation": 12,
+        "frequency": 20,
+        "size": 25
+      }
+    },
+    "diamond_ore": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "precision",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "numObjects": 2,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "size": 3
+      }
+    },
+    "diorite": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 255,
+        "variation": 50,
+        "frequency": 10,
+        "size": 112
+      }
+    },
+    "dirt": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 255,
+        "variation": 50,
+        "frequency": 10,
+        "size": 112
+      }
+    },
+    "emerald_ore": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": [],
+        "includes": [
+          "minecraft:smaller_extreme_hills",
+          "minecraft:mutated_mesa",
+          "minecraft:mutated_taiga",
+          "minecraft:extreme_hills",
+          "minecraft:mutated_jungle",
+          "minecraft:ice_mountains",
+          "minecraft:mutated_roofed_forest",
+          "minecraft:mutated_extreme_hills",
+          "minecraft:extreme_hills_with_trees",
+          "minecraft:mutated_birch_forest_hills",
+          "minecraft:mutated_taiga_cold",
+          "minecraft:mutated_extreme_hills_with_trees",
+          "minecraft:mutated_savanna",
+          "minecraft:mutated_mesa_clear_rock"
+        ]
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 4,
+        "maxHeight": 32,
+        "variation": 0,
+        "frequency": 8,
+        "size": 1
+      }
+    },
+    "gold_ore_mesa": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": [],
+        "includes": [
+          "minecraft:mesa",
+          "minecraft:mesa_rock",
+          "minecraft:mesa_clear_rock"
+        ]
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 32,
+        "maxHeight": 79,
+        "variation": 2,
+        "frequency": 2,
+        "size": 8
+      }
+    },
+    "gold_ore_standard": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 32,
+        "variation": 2,
+        "frequency": 2,
+        "size": 8
+      }
+    },
+    "granite": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 255,
+        "variation": 50,
+        "frequency": 10,
+        "size": 112
+      }
+    },
+    "gravel": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 255,
+        "variation": 50,
+        "frequency": 8,
+        "size": 112
+      }
+    },
+    "iron_ore": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 64,
+        "variation": 4,
+        "frequency": 20,
+        "size": 8
+      }
+    },
+    "lapis_ore": {
+      "enabled": false,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 32,
+        "variation": 2,
+        "frequency": 1,
+        "size": 5
+      }
+    },
+    "quartz_ore": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "includes": [
+          -1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 128,
+        "variation": 4,
+        "frequency": 7,
+        "size": 15
+      }
+    },
+    "redstone_ore": {
+      "enabled": true,
+      "retrogen": false,
+      "feature": "default",
+      "dimensions": {
+        "excludes": [
+          -1,
+          1
+        ]
+      },
+      "biomes": {
+        "excludes": []
+      },
+      "replaces": [
+        {
+          "name": "minecraft:stone"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:air"
+        },
+        {
+          "name": "minecraft:netherrack"
+        },
+        {
+          "name": "minecraft:end_stone"
+        }
+      ],
+      "parameters": {
+        "minHeight": 0,
+        "maxHeight": 16,
+        "variation": 3,
+        "frequency": 8,
+        "size": 6
+      }
+    }
+  }
+}

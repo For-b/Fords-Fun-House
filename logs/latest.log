@@ -1,0 +1,231 @@
+[00:03:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:03:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:03:30] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[00:03:30] [main/INFO] [FML]: Java is Java HotSpot(TM) Client VM, version 1.8.0_201, running on Windows 10:x86:10.0, installed at C:\Program Files (x86)\Java\jre1.8.0_201
+[00:03:30] [main/INFO] [FML]: Searching C:\Users\Ford Franzen\Desktop\Modded_Server\.\mods for mods
+[00:03:30] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from MalisisCore-1.12.2.jar
+[00:03:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:03:30] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[00:03:30] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.4 Source=file:/C:/Users/Ford%20Franzen/Desktop/Modded_Server/./mods/MalisisCore-1.12.2.jar Service=LaunchWrapper Env=SERVER
+[00:03:30] [main/WARN] [FML]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:03:30] [main/WARN] [FML]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[00:03:30] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[00:03:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:03:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:03:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:03:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:03:32] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[00:03:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:03:32] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[00:03:32] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@183d02
+[00:03:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:03:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:03:32] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:03:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:03:32] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:03:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:03:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[00:03:36] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[00:03:36] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:03:37] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[00:03:37] [Server thread/INFO] [FML]: Searching C:\Users\Ford Franzen\Desktop\Modded_Server\.\mods for mods
+[00:03:39] [Server thread/INFO] [FML]: Forge Mod Loader has identified 18 mods to load
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for buildcraftbuilders: assets/buildcraftbuilders/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for buildcraftcore: assets/buildcraftcore/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for buildcraftenergy: assets/buildcraftenergy/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for buildcraftfactory: assets/buildcraftfactory/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for buildcraftlib: assets/buildcraftlib/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for buildcraftrobotics: assets/buildcraftrobotics/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for buildcraftsilicon: assets/buildcraftsilicon/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for buildcrafttransport: assets/buildcrafttransport/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[00:03:39] [Server thread/WARN] [FML]: Missing English translation for orespawn: assets/orespawn/lang/en_us.lang
+[00:03:40] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, securitycraft, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, ic2, malisiscore, malisisdoors, orespawn] at CLIENT
+[00:03:40] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, securitycraft, buildcraftcompat, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftfactory, buildcraftlib, buildcraftrobotics, buildcraftsilicon, buildcrafttransport, ic2, malisiscore, malisisdoors, orespawn] at SERVER
+[00:03:41] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[00:03:41] [Server thread/INFO] [FML]: Found 1225 ObjectHolder annotations
+[00:03:41] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[00:03:41] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[00:03:41] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[00:03:41] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Starting version check at https://mod-buildcraft.com/version/versions-compat.json
+[00:03:42] [Server thread/INFO] [BuildCraft]: 
+[00:03:42] [Server thread/INFO] [BuildCraft]: Starting BuildCraft 7.99.21
+[00:03:42] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2018
+[00:03:42] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[00:03:42] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[00:03:42] [Server thread/INFO] [BuildCraft]:   Branch 8.0.x
+[00:03:42] [Server thread/INFO] [BuildCraft]:   Commit 9cfc9aea4a7f542b8f5acbfdb558f823170da58a
+[00:03:42] [Server thread/INFO] [BuildCraft]:     Fix fluid textures being stitched incorrectly.
+[00:03:42] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[00:03:42] [Server thread/INFO] [BuildCraft]: 
+[00:03:42] [Server thread/INFO] [BuildCraft]: Loaded Modules:
+[00:03:42] [Server thread/INFO] [BuildCraft]:   - lib
+[00:03:42] [Server thread/INFO] [BuildCraft]:   - core
+[00:03:42] [Server thread/INFO] [BuildCraft]:   - builders
+[00:03:42] [Server thread/INFO] [BuildCraft]:   - energy
+[00:03:42] [Server thread/INFO] [BuildCraft]:   - factory
+[00:03:42] [Server thread/INFO] [BuildCraft]:   - robotics
+[00:03:42] [Server thread/INFO] [BuildCraft]:   - silicon
+[00:03:42] [Server thread/INFO] [BuildCraft]:   - transport
+[00:03:42] [Server thread/INFO] [BuildCraft]:   - compat
+[00:03:42] [Server thread/INFO] [BuildCraft]: Missing Modules:
+[00:03:42] [Server thread/INFO] [BuildCraft]: 
+[00:03:42] [Server thread/INFO] [BuildCraft]: [debugger] Not a dev environment!
+[00:03:43] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[00:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcompat] Found status: AHEAD Target: null
+[00:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Starting version check at https://mod-buildcraft.com/version/versions.json
+[00:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftcore] Found status: AHEAD Target: null
+[00:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[00:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: OUTDATED Target: v1.8.11
+[00:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[00:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[00:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Starting version check at https://mod-buildcraft.com/version/versions.json
+[00:03:43] [Server thread/INFO] [BuildCraft]: 
+[00:03:43] [Server thread/INFO] [BuildCraft]: Starting BuildCraftCompat 7.99.21
+[00:03:43] [Server thread/INFO] [BuildCraft]: Copyright (c) the BuildCraft team, 2011-2017
+[00:03:43] [Server thread/INFO] [BuildCraft]: https://www.mod-buildcraft.com
+[00:03:43] [Server thread/INFO] [BuildCraft]: Detailed Build Information:
+[00:03:43] [Server thread/INFO] [BuildCraft]:   Branch 8.0.x
+[00:03:43] [Server thread/INFO] [BuildCraft]:   Commit f41da6f2870782edde56c9550942461044d9063a
+[00:03:43] [Server thread/INFO] [BuildCraft]:     Bump BuildCraft submodule.
+[00:03:43] [Server thread/INFO] [BuildCraft]:     committed by AlexIIL
+[00:03:43] [Server thread/INFO] [BuildCraft]: 
+[00:03:43] [Server thread/INFO] [BuildCraft]: [compat] Module list:
+[00:03:43] [Server thread/INFO] [BuildCraft]: [compat]   x forestry (It cannot load)
+[00:03:43] [Server thread/INFO] [BuildCraft]: [compat]   x theoneprobe (It cannot load)
+[00:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [buildcraftlib] Found status: AHEAD Target: null
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 328 out of 328 recipes for shaped recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 73 out of 73 recipes for shapeless recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 50 out of 50 recipes for compressor recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 12 out of 12 recipes for extractor recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 74 out of 74 recipes for macerator recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 9 out of 9 recipes for metal former extruding recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[00:03:49] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[00:03:49] [Server thread/INFO] [malisiscore]: Registering CloseInventoryMessage for Packet with discriminator 1 in channel malisiscore
+[00:03:49] [Server thread/INFO] [malisiscore]: Registering InventoryActionMessage for Packet with discriminator 2 in channel malisiscore
+[00:03:50] [Server thread/INFO] [malisiscore]: Registering OpenInventoryMessage for Packet with discriminator 3 in channel malisiscore
+[00:03:50] [Server thread/INFO] [malisiscore]: Registering UpdateInventorySlotsMessage for Packet with discriminator 4 in channel malisiscore
+[00:03:50] [Server thread/INFO] [malisiscore]: Registering DirectMessage for Packet with discriminator 5 in channel malisiscore
+[00:03:50] [Server thread/INFO] [malisiscore]: Registering BlockDataMessage for Packet with discriminator 6 in channel malisiscore
+[00:03:50] [Server thread/INFO] [malisiscore]: Registering ChunkBlockMessage for Packet with discriminator 7 in channel malisiscore
+[00:03:50] [Server thread/INFO] [malisiscore]: Registering NeighborChangedMessage for Packet with discriminator 8 in channel malisiscore
+[00:03:50] [Server thread/INFO] [malisiscore]: Registering SyncerMessage for Packet with discriminator 9 in channel malisiscore
+[00:03:50] [Server thread/INFO] [malisiscore]: Registering DigicodeMessage for Packet with discriminator 1 in channel malisisdoors
+[00:03:50] [Server thread/INFO] [malisiscore]: Registering DoorFactoryMessage for Packet with discriminator 2 in channel malisisdoors
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `customdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `saloondoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `verticalhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `garagedoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `door3x3`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bigdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rustyhatchtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doorfactorytileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `forcefieldtileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `doortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `trapdoortileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fencegatetileentity`, expected `malisisdoors`. This could be a intended override, but in most cases indicates a broken mod.
+[00:03:50] [Server thread/INFO] [FML]: Applying holder lookups
+[00:03:50] [Server thread/INFO] [FML]: Holder lookups applied
+[00:03:50] [Server thread/INFO] [FML]: Applying holder lookups
+[00:03:50] [Server thread/INFO] [FML]: Holder lookups applied
+[00:03:50] [Server thread/INFO] [FML]: Applying holder lookups
+[00:03:50] [Server thread/INFO] [FML]: Holder lookups applied
+[00:03:50] [Server thread/INFO] [FML]: Applying holder lookups
+[00:03:50] [Server thread/INFO] [FML]: Holder lookups applied
+[00:03:50] [Server thread/INFO] [FML]: Injecting itemstacks
+[00:03:50] [Server thread/INFO] [FML]: Itemstack injection complete
+[00:03:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[00:03:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[00:03:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[00:03:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on 192.168.0.4:25565
+[00:03:51] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[00:03:52] [Server thread/INFO] [FML]: Applying holder lookups
+[00:03:52] [Server thread/INFO] [FML]: Holder lookups applied
+[00:03:53] [Server thread/FATAL] [orespawn]: Loading file config\orespawn3\sysconf\replacements-orespawn.json
+[00:03:53] [Server thread/FATAL] [orespawn]: Loading replacement entry default
+[00:03:53] [Server thread/INFO] [FML]: Injecting itemstacks
+[00:03:53] [Server thread/INFO] [FML]: Itemstack injection complete
+[00:03:53] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[00:03:53] [Server thread/INFO] [ic2.General]: ic2 version 2.8.100-ex112 loaded.
+[00:03:54] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 18 mods
+[00:03:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[00:03:54] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[00:03:54] [Server thread/INFO] [FML]: Applying holder lookups
+[00:03:54] [Server thread/INFO] [FML]: Holder lookups applied
+[00:03:54] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@59a0aa)
+[00:03:55] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 537 advancements
+[00:03:56] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@59a0aa)
+[00:03:56] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@59a0aa)
+[00:03:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[00:03:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 36%
+[00:03:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 80%
+[00:03:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (5.053s)! For help, type "help" or "?"
+[00:03:59] [Server thread/INFO] [FML]: Unloading dimension -1
+[00:03:59] [Server thread/INFO] [FML]: Unloading dimension 1
+[00:06:37] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player 4Strkz is 927b45cb-2c2d-440e-910d-89e9e397cc57
+[00:06:38] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
+[00:06:38] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 18 mods : minecraft@1.12.2,buildcraftlib@7.99.21,malisiscore@1.12.2-6.4.0,FML@8.0.99.99,buildcraftsilicon@7.99.21,buildcraftcompat@7.99.21,buildcraftenergy@7.99.21,buildcrafttransport@7.99.21,orespawn@3.3.1,forge@14.23.5.2768,ic2@2.8.100-ex112,malisisdoors@1.12.2-7.3.0,buildcraftbuilders@7.99.21,mcp@9.42,buildcraftcore@7.99.21,buildcraftrobotics@7.99.21,buildcraftfactory@7.99.21,securitycraft@v1.8.10
+[00:06:38] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:06:38] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 4Strkz[/192.168.0.4:58413] logged in with entity id 314 at (-128.30491647380816, 64.0, -675.7396759692185)
+[00:06:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz joined the game
+[00:11:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz fell from a high place
+[00:16:24] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 4Strkz lost connection: Disconnected
+[00:16:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz left the game
+[00:24:04] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2013ms behind, skipping 40 tick(s)
+[00:26:29] [User Authenticator #2/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player 4Strkz is 927b45cb-2c2d-440e-910d-89e9e397cc57
+[00:26:29] [Netty Server IO #5/INFO] [FML]: Client protocol version 2
+[00:26:29] [Netty Server IO #5/INFO] [FML]: Client attempting to join with 18 mods : minecraft@1.12.2,buildcraftlib@7.99.21,malisiscore@1.12.2-6.4.0,FML@8.0.99.99,buildcraftsilicon@7.99.21,buildcraftcompat@7.99.21,buildcraftenergy@7.99.21,buildcrafttransport@7.99.21,orespawn@3.3.1,forge@14.23.5.2768,ic2@2.8.100-ex112,malisisdoors@1.12.2-7.3.0,buildcraftbuilders@7.99.21,mcp@9.42,buildcraftcore@7.99.21,buildcraftrobotics@7.99.21,buildcraftfactory@7.99.21,securitycraft@v1.8.10
+[00:26:30] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:26:30] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 4Strkz[/192.168.0.4:59166] logged in with entity id 7052 at (-153.69999998807907, 71.0, -658.2644708347947)
+[00:26:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz joined the game
+[00:28:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz fell from a high place
+[00:29:09] [Server thread/WARN] [FML]: OreSpawn loaded a new chunk [-22, -49] in dimension 0 (overworld) while populating chunk [-22, -48], causing cascading worldgen lag.
+[00:29:09] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:29:17] [Server thread/WARN] [FML]: OreSpawn loaded a new chunk [-23, -46] in dimension 0 (overworld) while populating chunk [-23, -45], causing cascading worldgen lag.
+[00:29:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:29:17] [Server thread/WARN] [FML]: OreSpawn loaded a new chunk [-23, -47] in dimension 0 (overworld) while populating chunk [-23, -46], causing cascading worldgen lag.
+[00:29:17] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:29:18] [Server thread/WARN] [FML]: OreSpawn loaded a new chunk [-23, -55] in dimension 0 (overworld) while populating chunk [-23, -54], causing cascading worldgen lag.
+[00:29:18] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:29:24] [Server thread/WARN] [FML]: OreSpawn loaded a new chunk [-21, -58] in dimension 0 (overworld) while populating chunk [-21, -57], causing cascading worldgen lag.
+[00:29:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:29:46] [Server thread/WARN] [FML]: OreSpawn loaded a new chunk [-19, -60] in dimension 0 (overworld) while populating chunk [-18, -60], causing cascading worldgen lag.
+[00:29:46] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:29:46] [Server thread/WARN] [FML]: OreSpawn loaded a new chunk [-20, -60] in dimension 0 (overworld) while populating chunk [-19, -60], causing cascading worldgen lag.
+[00:29:46] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:29:46] [Server thread/WARN] [FML]: OreSpawn loaded a new chunk [-21, -60] in dimension 0 (overworld) while populating chunk [-19, -60], causing cascading worldgen lag.
+[00:29:46] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:32:29] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: 4Strkz moved too quickly! -0.23223549225778584,-10.596058325307418,0.08289194558699364
+[00:32:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz fell from a high place
+[00:40:23] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Time ran backwards! Did the system time change?
+[00:45:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz fell from a high place
+[00:46:22] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 4Strkz lost connection: Disconnected
+[00:46:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz left the game
+[00:48:41] [User Authenticator #3/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player 4Strkz is 927b45cb-2c2d-440e-910d-89e9e397cc57
+[00:48:41] [Netty Server IO #7/INFO] [FML]: Client protocol version 2
+[00:48:41] [Netty Server IO #7/INFO] [FML]: Client attempting to join with 18 mods : minecraft@1.12.2,buildcraftlib@7.99.21,malisiscore@1.12.2-6.4.0,FML@8.0.99.99,buildcraftsilicon@7.99.21,buildcraftcompat@7.99.21,buildcraftenergy@7.99.21,buildcrafttransport@7.99.21,orespawn@3.3.1,forge@14.23.5.2768,ic2@2.8.100-ex112,malisisdoors@1.12.2-7.3.0,buildcraftbuilders@7.99.21,mcp@9.42,buildcraftcore@7.99.21,buildcraftrobotics@7.99.21,buildcraftfactory@7.99.21,securitycraft@v1.8.10
+[00:48:42] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:48:42] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 4Strkz[/192.168.0.4:59443] logged in with entity id 24965 at (-152.9047518275508, 36.0, -656.028722926716)
+[00:48:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz joined the game
+[00:52:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz fell out of the world
+[00:52:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Killed 4Strkz
+[01:03:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz drowned
+[01:09:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz fell from a high place
+[01:20:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz fell from a high place
+[01:20:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 4Strkz lost connection: Disconnected
+[01:20:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 4Strkz left the game
+[01:46:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[01:46:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:46:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:46:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[01:46:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[01:46:39] [Server thread/INFO] [FML]: Unloading dimension 0
+[01:46:39] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
